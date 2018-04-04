@@ -41,11 +41,6 @@
   background-image: url(../images/icons8-vkontakte.svg);
 }
 
-.links {
-  width: 100%;
-  background-color: rgb(33, 15, 37);
-}
-
 .person_links {
   display: flex;
   flex-direction: row;
