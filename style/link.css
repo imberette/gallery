@@ -26,19 +26,19 @@
 }
 
 .link__deviantart .link_icon {
-  background-image: url(images/deviantart.svg);
+  background-image: url(../images/deviantart.svg);
   background-color: white;
   border-radius: 20%;
 }
 
 .link__instagram .link_icon {
-  background-image: url(images/instagram-2016.svg);
+  background-image: url(../images/instagram-2016.svg);
   background-color: white;
   border-radius: 30%;
 }
 
 .link__vk .link_icon {
-  background-image: url(images/icons8-vkontakte.svg);
+  background-image: url(../images/icons8-vkontakte.svg);
 }
 
 .links {
