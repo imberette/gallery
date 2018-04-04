@@ -1,32 +1,7 @@
-.container {
-  background-color: rgb(197, 115, 115);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+.main {
   width: 900px;
-}/*позже придумать как связать его с его внутренностями по бэму*/
-
-.header_title {
-  margin: 10px;
-}
-
-.info {
-  background-color: rgb(68, 66, 66);
+  background-color: rgb(29, 22, 22);
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 60%;
-  margin: 10px;
-}
-
-.info_personal {
-  background-color: rgb(201, 196, 196);
-  display: flex;
-  flex-grow: 1;
   flex-direction: column;
-  padding: 10px;
-}
-
-.info_list {
-  background-color: rgb(97, 56, 56);
+  align-items: center;
 }
