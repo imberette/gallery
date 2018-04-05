@@ -1,5 +1,5 @@
 .header {
-  background-color: bisque;
+  background-color: rgb(58, 62, 68);
 }
 
 .header_container {
@@ -12,10 +12,11 @@
 
 .header_title {
   margin-left: 5px;
+  color: rgb(111, 103, 139);
 }
 
 .header_info {
-  background-color: rgb(68, 66, 66);
+  background-color: rgb(216, 198, 181);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -23,18 +24,18 @@
 }
 
 .header_info_personal {
-  background-color: rgb(201, 196, 196);
+  background-color: rgb(160, 130, 173);
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   padding: 10px;
-  height: 100vh;
+  height: 300px;
 }
 
 .header_info_title {
-  background-color: white;
+  color: rgb(133, 31, 31);
 }
 
 .header_info_list {
-  background-color: rgb(97, 56, 56);
+  background-color: rgb(207, 203, 203);
 }
