@@ -1,13 +1,16 @@
 .header {
-  background-color: rgb(58, 62, 68);
+  display: flex;
+  background-image: url(../images/header-background.jpg);
+  flex-grow: 1;
 }
 
 .header_container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 950px;
-  height: 500px;
+  background-color: rgba(22, 13, 31, .75);
+  width: 50vw;
+  margin: 20px;
 }
 
 .header_title {
@@ -16,7 +19,6 @@
 }
 
 .header_info {
-  background-color: rgb(216, 198, 181);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -24,7 +26,6 @@
 }
 
 .header_personal {
-  background-color: rgb(160, 130, 173);
   display: flex;
   flex-grow: 1;
   flex-direction: column;
