@@ -23,7 +23,7 @@
   width: 60%;
 }
 
-.header_info_personal {
+.header_personal {
   background-color: rgb(160, 130, 173);
   display: flex;
   flex-grow: 1;
@@ -32,10 +32,10 @@
   height: 300px;
 }
 
-.header_info_title {
+.header_description {
   color: rgb(133, 31, 31);
 }
 
-.header_info_list {
+.header_list {
   background-color: rgb(207, 203, 203);
 }
