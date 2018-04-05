@@ -8,13 +8,13 @@
 .link_source {
   display: flex;
   justify-content: space-around;
-  color: black;
+  color: rgb(151, 83, 83);
   text-decoration: none;
   font-size: 24px;
 }
 
 .link_source:hover {
-  background-color: rgba(224, 3, 114, .726);
+  background-color: rgba(224, 31, 63, .61);
   border-radius: 8px;
 }
 
@@ -41,7 +41,7 @@
   background-image: url(../images/icons8-vkontakte.svg);
 }
 
-.person_links {
+.link_list {
   display: flex;
   flex-direction: row;
 }
