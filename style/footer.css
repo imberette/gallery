@@ -1,4 +1,5 @@
 .footer {
   width: 100%;
   background-color: rgb(33, 15, 37);
+  align-self: flex-end;
 }
