@@ -8,19 +8,20 @@
 .link_source {
   display: flex;
   justify-content: space-around;
-  color: rgb(151, 83, 83);
+  color: white;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 15px;
+  align-items: center;
 }
 
 .link_source:hover {
-  background-color: rgba(224, 31, 63, .61);
+  background-color: rgba(224, 31, 63, .411);
   border-radius: 8px;
 }
 
 .link_icon {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background-size: 100% 100%;
   margin-right: 20px;
 }
