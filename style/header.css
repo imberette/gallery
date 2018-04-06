@@ -24,6 +24,11 @@
   padding-top: 50px;
 }
 
+.header_name {
+  font-size: 45px;
+  color: rgb(255, 60, 60);
+}
+
 .header_title {
   align-self: center;
   color: rgb(255, 255, 255);
