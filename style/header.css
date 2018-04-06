@@ -46,7 +46,6 @@
 
 .header_personal {
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
 }
 
@@ -54,7 +53,12 @@
   color: white;
 }
 
+.header_list-title {
+  color: white;
+}
+
 .header_list {
   list-style-type: none;
+  padding: 0;
   color: rgb(189, 112, 112);
 }
