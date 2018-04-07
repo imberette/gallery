@@ -28,22 +28,28 @@
 }
 
 .header_name {
-  font-size: 45px;
+  font-size: 52px;
   color: rgb(255, 60, 60);
 }
 
 .header_second-name {
   color: rgb(255, 60, 60);
-  font-size: 50px;
+  font-size: 69px;
 }
 
 .header_title {
   color: white;
+  position: relative;
+  right: 43px;
+  top: 24px;
 }
 
 .header_info {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  top: -40px;
   align-items: center;
   width: 50vw;
 }
@@ -56,10 +62,11 @@
 }
 
 .header_description {
-  color: white;
+  color: rgb(189, 112, 112);
 }
 
 .header_description-title {
+  font-size: 33px;
   color: white;
 }
 
