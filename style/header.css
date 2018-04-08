@@ -48,9 +48,8 @@
 .header_info {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   position: relative;
-  top: -40px;
+  top: 12px;
   align-items: center;
   width: 50vw;
 }
@@ -68,7 +67,7 @@
 }
 
 .header_description-title {
-  font-size: 33px;
+  font-size: 28px;
   color: white;
   font-weight: normal;
 }
@@ -79,6 +78,11 @@
 
 .header_list {
   list-style-type: none;
+  font-size: 18px;
   padding: 0;
   color: rgb(189, 112, 112);
+}
+
+.header_list-element {
+  padding-bottom: 8px;
 }
