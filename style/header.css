@@ -1,8 +1,9 @@
 .header {
   display: flex;
-  background-image: url(../images/header-background.jpg);
+  background-image: url(../images/header-background-two.jpg);
   background-size: cover;
   flex-grow: 1;
+  height: 100vh;
 }
 
 .header_container {
@@ -19,11 +20,11 @@
 .header_titles {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-end;
   position: relative;
-  top: 114px;
-  left: 30px;
+  bottom: 84px;
+  left: 6px;
   width: 50vw;
 }
 
@@ -67,7 +68,7 @@
 }
 
 .header_description-title {
-  font-size: 28px;
+  font-size: 22px;
   color: white;
   font-weight: normal;
 }
@@ -78,7 +79,7 @@
 
 .header_list {
   list-style-type: none;
-  font-size: 18px;
+  font-size: 16px;
   padding: 0;
   color: rgb(189, 112, 112);
 }
