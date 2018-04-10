@@ -3,7 +3,7 @@
   background-image: url(../images/header-background-two.jpg);
   background-size: cover;
   flex-grow: 1;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .header_container {
