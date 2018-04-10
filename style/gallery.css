@@ -1,0 +1,45 @@
+.gallery_checkbox {
+  display: none;
+}
+
+.gallery_lightbox {
+  z-index: 1;
+  min-height: 100%;
+  transform: scale(0);
+  transition: transform .5s ease-out;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.gallery_checkbox:checked + .gallery_lightbox {
+  transform: scale(1);
+}
+
+.gallery_checkbox:checked ~ .gallery_grid {
+  opacity: .125;
+}
+
+.gallery_picture {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 96%;
+  max-height: 96%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+  transition: opacity .75s;
+}
+
+.gallery_picture-main {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .25);
+  opacity: .75;
+  transition: opacity .5s;
+}
+
+.gallery_picture-main:hover {
+  opacity: 1;
+}
