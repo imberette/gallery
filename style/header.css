@@ -7,68 +7,61 @@
 }
 
 .header_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   background-color: rgba(22, 13, 31, .85);
   width: 50vw;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .header_titles {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  position: relative;
-  bottom: 84px;
-  left: 6px;
-  width: 50vw;
+  position: absolute;
+  top: 122px;
+  left: 136px;
 }
 
 .header_name {
-  font-size: 52px;
+  font-size: 70px;
   color: rgb(255, 60, 60);
 }
 
 .header_second-name {
   color: rgb(255, 60, 60);
-  font-size: 69px;
+  font-size: 94px;
+  position: absolute;
+  top: 143px;
+  left: 100px;
 }
 
 .header_title {
   color: white;
   position: relative;
   right: 43px;
-  top: 24px;
+  top: 43px;
   font-weight: normal;
 }
 
 .header_info {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 12px;
-  align-items: center;
-  width: 50vw;
+  padding-left: 40px;
+  padding-right: 20px;
 }
 
 .header_personal {
-  width: 50%;
+  padding-left: 360px;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
 }
 
 .header_description {
+  font-size: 22px;
   text-align: left;
   color: rgb(189, 112, 112);
 }
 
 .header_description-title {
-  font-size: 22px;
+  font-size: 34px;
   color: white;
   font-weight: normal;
 }
@@ -79,7 +72,7 @@
 
 .header_list {
   list-style-type: none;
-  font-size: 16px;
+  font-size: 22px;
   padding: 0;
   color: rgb(189, 112, 112);
 }
