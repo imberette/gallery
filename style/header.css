@@ -2,7 +2,6 @@
   display: flex;
   background-image: url(../images/header-background-two.jpg);
   background-size: cover;
-  flex-grow: 1;
   min-height: 100vh;
 }
 
@@ -45,8 +44,9 @@
 .header_info {
   padding-left: 40px;
   padding-right: 20px;
+  padding-top: 5px;
   top: 18px;
-  margin: -10px;
+  margin: 5px;
 }
 
 .header_personal {
@@ -58,7 +58,7 @@
 }
 
 .header_description {
-  font-size: 22px;
+  font-size: 20px;
   text-align: left;
   color: rgb(189, 112, 112);
 }
@@ -76,7 +76,7 @@
 
 .header_list {
   list-style-type: none;
-  font-size: 22px;
+  font-size: 20px;
   padding: 0;
   color: rgb(189, 112, 112);
 }
