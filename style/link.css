@@ -16,6 +16,8 @@
 
 .link:hover {
   background-color: rgba(255, 124, 124, .158);
+  opacity: 1;
+  transition: opacity .75s;
 }
 
 .link_icon {
