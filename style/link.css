@@ -14,9 +14,8 @@
   align-items: center;
 }
 
-.link_source:hover {
-  background-color: rgba(224, 31, 63, .411);
-  border-radius: 8px;
+.link:hover {
+  background-color: rgba(255, 124, 124, .158);
 }
 
 .link_icon {
@@ -45,4 +44,7 @@
 .link_list {
   display: flex;
   flex-direction: row;
+  padding: 0;
+  height: 50px;
+  margin: 0;
 }
