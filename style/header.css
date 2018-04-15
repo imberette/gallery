@@ -11,7 +11,7 @@
     background: none;
   }
 }
-  
+
 .header_container {
   background-color: rgba(22, 13, 31, .85);
   width: 50%;
@@ -60,20 +60,10 @@
   text-align: right;
 }
 
-@media (max-width: 900px) {
-  .header_name {
-  }
-}
-
 .header_second-name {
   color: rgb(255, 60, 60);
   font-size: 94px;
   text-align: right;
-}
-
-@media (max-width: 900px) {
-  .header_second-name {
-  }
 }
 
 .header_title {
@@ -151,13 +141,3 @@
 .header_list-element {
   padding-bottom: 8px;
 }
-
-/*
-
-  .header_container {
-    min-width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
-}
-/*
